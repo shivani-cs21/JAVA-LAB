@@ -52,7 +52,7 @@ void display()
 {
 System.out.println("student details");
 System.out.println("name:"+name+" "+"usn:"+usn);
-System.out.println("marks\tgrade");
+System.out.println("marks\tcredits");
 for(i=0;i<n;i++)
 {
 System.out.println(marks[i]+"\t"+credits[i]);
