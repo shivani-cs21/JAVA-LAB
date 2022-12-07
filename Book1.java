@@ -8,22 +8,22 @@ class Book
  void getval()
  {
   Scanner bk=new Scanner(System.in);
-  System.out.println("Enter book name");
+  System.out.println("Enter book name:");
   name=bk.next();
-  System.out.println("Enter author name");
+  System.out.println("Enter author name:");
   author=bk.next();
-  System.out.println("Enter book price");
+  System.out.println("Enter book price:");
   price=bk.nextInt();
-  System.out.println("Enter number of pages of book");
+  System.out.println("Enter number of pages of book:");
   num_pages=bk.nextInt();
  }
  void display()
  {
    System.out.println("Details of the book");
-   System.out.println("Name of the book"+" "+name);
-   System.out.println("Author of the book"+" "+author);
-   System.out.println("Book Price"+" "+price);
-   System.out.println("Number of pages"+" "+num_pages);
+   System.out.println("Name of the book:"+" "+name);
+   System.out.println("Author of the book:"+" "+author);
+   System.out.println("Book Price:"+" "+price);
+   System.out.println("Number of pages:"+" "+num_pages);
  }
 }
 
